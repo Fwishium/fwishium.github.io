@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fwishium | All-in-One BetterDiscord plugin</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  
+  <script src="https://kit.fontawesome.com/4107e60ec2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/> 
+  
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="cdn/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="cdn/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="cdn/favicon/favicon-16x16.png">
+  <link rel="manifest" href="cdn/favicon/site.webmanifest">
+	
+		<!-- Open Graph / Discord Embed -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://flevie.github.io/fwishium/">
+		<meta property="og:title" content="fwishium | All-in-One BetterDiscord plugin">
+		<meta property="og:site_name" content="fwishium">
+		<meta property="og:description" content="Lightweight client modification plugin that helps optimize the Discord client. Fully for free.">
+		<meta property="og:image" content="https://flevie.github.io/fwishium/cdn/fwishium_banner_rounded.png">
+		<meta property="og:image:width" content="1550">
+		<meta property="og:image:height" content="500">
+
+		<!-- Twitter Card (Discord reads this too sometimes) -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:title" content="fwishium | All-in-One BetterDiscord plugin">
+		<meta property="twitter:description" content="Lightweight client modification plugin that helps optimize the Discord client. Fully for free.">
+		<meta property="twitter:image" content="https://flevie.github.io/fwishium/cdn/fwishium_banner_rounded.png">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+    </nav>
+    
+    <div class="hero-background">
+      <div class="header-logo">
+        <img src="cdn/fwishium_header.png" alt="fwishium">
+      </div>
+      <div class="header-logo2">
+        <img src="cdn/fwishium_rod.png" alt="fwishium">
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <div class="container">
+      
+      <div class="theme-switch-container">
+        <h1>Theme Switcher</h1>
+        <div class="theme-switch-button-container">
+          <label class="theme-switch">
+            <input type="checkbox" id="themeToggle1">
+            <span class="slider"></span>
+          </label>
+        </div>
+
+      </div>
+      <div class="theme-fade" id="themeFade"></div>
+      
+      <article>
+        <h1>What is Fwishium?</h1>
+        <p>
+         Fwishium is a lightweight client modification plugin that helps optimize the Discord client. It displays live telemetry for RAM (RSS and heap) and CPU usage with a candlestick chart for monitoring trends over time. When unfocused, it throttles background activity, suppressing non-critical Flux dispatches, pausing CSS animations, and hiding inactive video elements to cut resource usage. It also includes an animation throttler that swaps animated emoji and GIFs for static previews, reducing decode overhead even while focused. All features are independently togglable inside the config.
+        </p>
+      </article>
+      
+      <article>
+        <h1>Roadmap</h1>
+
+        <h2 class="roadmap-phase">Alpha</h2>
+        <ul class="roadmap">
+          <li class="done">Live RAM &#38; CPU usage indicator (RSS &#38; Heap)</li>
+          <li class="done">Background throttle mode (reduce updates when unfocused)</li>
+          <li class="done">Animation throttler (animated emoji / GIF / autoplay control)</li>
+          <li>Custom settings &#38; experimental toggles</li>
+        </ul>
+
+        <h2 class="roadmap-phase">Release</h2>
+        <ul class="roadmap">
+          <li>Support server</li>
+          <li>Officially added to <a href="https://betterdiscord.app/plugins" target="_blank">BetterDiscord</a></li>
+          <li>Better compatibility with themes and plugins</li>
+          <li>Presets: Lite / Balanced / Max Performance</li>
+        </ul>
+      </article>
+      
+      <article>
+        <h1>Installation</h1>
+        <p>
+          For installation, refer to: <a href="https://github.com/fwishr/fwishium?tab=readme-ov-file#installation" target="_blank">the official GitHub Repo</a> <i class="fa-brands fa-github" style="font-size:1.2em"></i>
+        </p>
+      </article>
+      
+      <article>
+        <h1>Contributing</h1>
+        <p>
+          Contributions are welcome. If you'd like to contribute:
+        </p>
+          <div class="ul-container">
+          <ul>
+            <li>
+              Open an issue in <a href="https://github.com/fwishr/fwishium" target="_blank">the official GitHub Repo</a> <i class="fa-brands fa-github" style="font-size:1.2em"></i> to discuss major changes or report bugs.
+            </li>
+            <li>
+              Contact me via <a href="https://discord.com/users/607822260362805259">Discord</a> <i class="fa-brands fa-discord" style="font-size:1em"></i> for any PR's
+            </li>
+            <li>
+              Keep performance changes small and include notes on how they were measured or tested.
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article>
+        <h1>Links</h1>
+          <div class="ul-container">
+          <ul>
+            <li>
+              Repository: <a href="https://github.com/fwishr/fwishium" target="_blank">https://github.com/fwishr/fwishium</a> <i class="fa-brands fa-github" style="font-size:1.2em"></i>
+            </li>
+            <li>
+              Support / Discussion: Coming Later
+            </li>
+          </ul>
+        </div>
+      </article>
+      <div class="github-repo">
+        <a href="https://github.com/fwishr/fwishium" target="_blank"><img src="cdn/github_repo.png" alt="github repo banner"></a>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <p>Created for <a href="https://github.com/fwishr" target="_blank">fwishr</a></p>
+    <p>Copyright &copy; 2026 fwishr &amp; flevie. All rights reserved. <a href="https://discord.com/users/765635661935018044" target="_blank">Contact me</a></p>
+    <p>Date of Commit: 15/03/2026</p>
+      <marquee scrollamount="12">
+        <p><span>fwishium</span>  is currently in early development - major changes are to be expected</p>
+      </marquee>
+  </footer>
+
+  <script src="js/hero_scroll.js"></script>
+  <script src="js/theme_switch.js"></script>
+  <script src="js/theme_fade.js">
+  </script>
+</body>
+</html>
